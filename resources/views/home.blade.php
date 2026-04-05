@@ -118,9 +118,6 @@
                             Shop Collection
                             <span class="material-symbols-outlined" data-icon="arrow_forward">arrow_forward</span>
                         </a>
-                        <button class="bg-surface-container-highest px-10 py-5 font-headline text-sm font-black uppercase tracking-widest text-secondary transition-transform scale-95 active:scale-90" type="button">
-                            Lookbook
-                        </button>
                     </div>
                 </div>
             </section>
