@@ -128,59 +128,51 @@
             <section class="bg-surface px-6 py-32">
                 <div class="mx-auto max-w-[1200px]">
                     <div class="mb-16 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-                    <div>
-                        <h2 class="font-headline text-5xl font-black uppercase leading-none tracking-tighter italic md:text-7xl">
-                            The<br>Registry.
-                        </h2>
-                    </div>
-                    <p class="max-w-sm text-right font-body text-on-surface-variant">
-                        Selected archival pieces and new laboratory drops. Engineered for the high-velocity urban environment.
-                    </p>
-                    </div>
-                    <div class="grid auto-rows-[300px] grid-cols-1 gap-2 md:grid-cols-4 lg:grid-cols-6">
-                    <div class="group relative overflow-hidden bg-surface-container-low md:col-span-2 lg:col-span-3 lg:row-span-2">
-                        <img alt="Premium Outerwear" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" data-alt="Close up of a black technical hooded jacket with reflective zippers and premium fabric texture against a dark studio background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6FFzm89t7vMN69LBCLOyEIMW80iUSAYQ9TjnvwjmVSL_oHrc0ydPO4Hg7TCuYdBBLRCbXleXrhYLWGjyoqriPT_A-Nke9SPMsUVxjZV6edEzlcd5kiyLYFfiUziwpF6ORT9dBGAVhI4qcxjYG2sU1ZUlDuZ0OdubDQ6RWrUaQdt0fKXnuXH6t8EvlnPIRxMRKvgO7368qSskyVfZsM2xOgFrk_NLk4dQzugyfV-oDN9M-UYEX9bUmaqiISoi5qC2rD5SlKZlJBsc">
-                        <div class="absolute bottom-6 left-6 right-6">
-                            <div class="flex items-end justify-between">
-                                <div>
-                                    <span class="mb-2 inline-block bg-secondary px-2 py-0.5 text-[10px] font-black uppercase text-on-secondary">New Arrival</span>
-                                    <h3 class="font-headline text-3xl font-black uppercase tracking-tighter text-white italic">Vortex Parka</h3>
-                                </div>
-                                <div class="bg-primary-container px-4 py-2 font-headline text-lg font-black italic text-on-primary-container">
-                                    $580
-                                </div>
-                            </div>
+                        <div>
+                            <h2 class="font-headline text-5xl font-black uppercase leading-none tracking-tighter italic md:text-7xl">
+                                Shop<br>Products.
+                            </h2>
+                        </div>
+                        <div class="max-w-md text-right">
+                            <p class="font-body text-on-surface-variant">
+                                Live storefront pieces pulled from your actual catalog, including products uploaded and edited from the admin inventory.
+                            </p>
+                            <a class="mt-5 inline-flex items-center gap-2 font-headline text-sm font-black uppercase tracking-widest text-primary-container transition-colors hover:text-white" href="{{ route('shop') }}">
+                                View Full Shop
+                                <span class="material-symbols-outlined text-base">arrow_forward</span>
+                            </a>
                         </div>
                     </div>
-                    <div class="group relative overflow-hidden bg-surface-container-low md:col-span-2 lg:col-span-3">
-                        <img alt="Kinetic Footwear" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" data-alt="Sleek neon yellow and black designer sneakers floating in a dark minimalist space with vibrant lighting accents" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2BpFJphlC2X4EyeWI7zpuNXk4E2TtySrTOmdJdU10y-PlMVOersi6RxxhJKff65xq3ABzoi3HcA9NtuF1lzDhyeaRtnSfSeVJFvy6lvyaWt-1rMVq0clILilvQxHXfNDDJ5o1_9Vofndh-EcYWtB4XSyAtjhQGDcOK5rAu6JBhXzSr3QqbUGO52x6cRvFW2U7F-_TW-kHmVox9vNdkcr3MKG1NlGCAlrBKQYb08xl4Mt21f0pFckUHSIVtCKLKdN1_vv9RIDBJkc">
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-                        <div class="absolute bottom-4 left-4 right-4 flex items-center justify-between">
-                            <h3 class="font-headline text-xl font-black uppercase tracking-tighter text-white italic">Volt Runner 01</h3>
-                            <div class="font-headline font-black text-primary-container">$320</div>
-                        </div>
-                    </div>
-                    <div class="group relative overflow-hidden bg-surface-container-low md:col-span-2 lg:col-span-2">
-                        <img alt="Oversized Essential" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" data-alt="Minimalist heavy cotton white oversized t-shirt hanging on a industrial metal rack in a raw concrete gallery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuASm22X5eGwfa-zLTFx8dGYFz3v4SMHUMc5Af0vIsaoDo6RrEsNbfADw8OSUAJmdIM00s4-Exc08WLo_OvAAPs4FfDSUYG6qrEWyu-NEfXX281xlObVgPqa9Nw8e_DsvpvURjD6xvoOQllQDKCRVsd9GESktkIEKaYfkql4oA6l8aJrT49RsFnRIaJDzg5w6F0zilam27LuYINpfplPmv0RPirhtZyO7qCctQeFyu6jPk0op8-TPUPV2h1W9UjvvSKHRSnVavZzTOc">
-                        <div class="absolute bottom-4 left-4">
-                            <h3 class="font-headline text-xl font-black uppercase tracking-tighter text-white italic">Lab Tee</h3>
-                            <div class="font-headline font-black text-primary-container">$85</div>
-                        </div>
-                    </div>
-                    <div class="group relative overflow-hidden bg-surface-container-low md:col-span-2 lg:col-span-2">
-                        <img alt="Technical Pants" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" data-alt="Wide-leg black cargo pants with multiple tactical pockets and strap details on a clean dark grey background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYcppCfMpg7t4AGzWa6_d_IxqvfvNs-MsIbKIEXh4Ba_TvtHiO6RbOGIivB00K1-cc3wj2DjgTx4GOrVwVPldrlX8kECmp9SknmnPD9934gI6TxHt4nu-VjIJedF8rp9dCRfe2Ovgh7d48OdiVZEwYeqkutmJM2eUZvpAYHU5GosM3TAmsWCiBee-xXzplThOZpQvinjRGlqBGq0CPkKQbBDxW-9sQmzjn3MybZemvIsCfFQFUrEGSJ9jDjYC26wayoNVSaWjDrNY">
-                        <div class="absolute bottom-4 left-4">
-                            <h3 class="font-headline text-xl font-black uppercase tracking-tighter text-white italic">Utility Pant</h3>
-                            <div class="font-headline font-black text-primary-container">$240</div>
-                        </div>
-                    </div>
-                    <div class="group relative overflow-hidden bg-surface-container-low md:col-span-2 lg:col-span-2">
-                        <img alt="Knitwear Accessory" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" data-alt="Detailed texture of a premium black wool beanie with a neon yellow rubberized logo patch" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaGUqvDx1AAuOHCVeeYdl3vZso6fDp6QFwICYvmUFHnOCBOeQ1m4KxBFZYsIGWPWMGSNPuSvq9iJ5Afzthf_myUEFkCxnhCUOJZOL7PdJ2E3zbr4OVI5yRZTE5TEIcK_zDYkS4LroPEIym8bK9q2qr617apgzATUe4d09NsL0_X08BDXdvDiMviObnfr4mfTsbYloHp0W3hY61jxxCZjO_9YEtxoDUwsRfiZ3jZXUTfmC4ZrtHj1Zt2T_Bo4kceVdfAwhlfKCY1zo">
-                        <div class="absolute bottom-4 left-4">
-                            <h3 class="font-headline text-xl font-black uppercase tracking-tighter text-white italic">Registry Beanie</h3>
-                            <div class="font-headline font-black text-primary-container">$60</div>
-                        </div>
-                    </div>
+
+                    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3">
+                        @foreach($featuredProducts as $product)
+                            <article class="group overflow-hidden rounded-xl bg-surface-container-low">
+                                <a class="block" href="{{ route('product.show', $product['slug']) }}">
+                                    <div class="relative aspect-[4/5] overflow-hidden">
+                                        <img alt="{{ $product['name'] }}" class="h-full w-full object-cover grayscale transition-all duration-700 group-hover:scale-105 group-hover:grayscale-0" src="{{ $product['image'] }}">
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/65 via-transparent to-transparent opacity-80"></div>
+                                        <div class="absolute left-5 top-5 inline-flex items-center rounded-full px-3 py-1 text-[10px] font-black uppercase tracking-[0.25em] {{ $product['shop_category'] === 'minimal' ? 'bg-secondary text-on-secondary' : 'bg-primary-container text-on-primary-container' }}">
+                                            {{ strtoupper($product['shop_category']) }}
+                                        </div>
+                                        <div class="absolute bottom-0 left-0 right-0 p-6">
+                                            <div class="flex items-end justify-between gap-4">
+                                                <div>
+                                                    <h3 class="font-headline text-2xl font-black uppercase tracking-tighter text-white italic">
+                                                        {{ $product['name'] }}
+                                                    </h3>
+                                                    <p class="mt-2 font-body text-[10px] font-bold uppercase tracking-[0.25em] text-on-surface-variant">
+                                                        SKU: {{ $product['sku'] }}
+                                                    </p>
+                                                </div>
+                                                <div class="font-headline text-2xl font-black italic text-primary-container">
+                                                    {{ $product['price'] }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                        @endforeach
                     </div>
                 </div>
             </section>

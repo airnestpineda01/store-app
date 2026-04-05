@@ -9,7 +9,13 @@ class HomeController extends Controller
 {
     public function index()
     {
-        return view('home');
+        return view('home', [
+            'featuredProducts' => collect($this->products())
+                ->sortByDesc('release_order')
+                ->take(5)
+                ->values()
+                ->all(),
+        ]);
     }
 
     public function customerLogin()
