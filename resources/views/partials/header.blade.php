@@ -15,7 +15,7 @@
     <div class="mx-auto flex w-full max-w-[1200px] items-center justify-between">
         <a class="font-headline text-3xl font-black italic tracking-tighter text-[#d5fb00]" href="{{ route('home') }}">THREADLAB</a>
         <div class="hidden items-center gap-8 md:flex">
-            <a class="{{ request()->routeIs('home') ? 'border-b-2 border-[#d5fb00] pb-1 text-[#d5fb00]' : 'text-white' }} font-headline text-sm font-black uppercase tracking-tighter transition-colors duration-300 hover:text-[#d5fb00]" href="{{ route('home') }}">EDITORIAL</a>
+            <a class="{{ request()->routeIs('home') ? 'border-b-2 border-[#d5fb00] pb-1 text-[#d5fb00]' : 'text-white' }} font-headline text-sm font-black uppercase tracking-tighter transition-colors duration-300 hover:text-[#d5fb00]" href="{{ route('home') }}">HOME</a>
             <a class="{{ request()->routeIs('shop') || request()->routeIs('product.show') || request()->routeIs('cart') || request()->routeIs('checkout') ? 'border-b-2 border-[#d5fb00] pb-1 text-[#d5fb00]' : 'text-white' }} font-headline text-sm font-black uppercase tracking-tighter transition-colors duration-300 hover:text-[#d5fb00]" href="{{ route('shop') }}">SHOP</a>
             <a class="font-headline text-sm font-black uppercase tracking-tighter text-white transition-colors duration-300 hover:text-[#d5fb00]" href="#">COLLECTIONS</a>
             <a class="{{ request()->routeIs('contact') ? 'border-b-2 border-[#d5fb00] pb-1 text-[#d5fb00]' : 'text-white' }} font-headline text-sm font-black uppercase tracking-tighter transition-colors duration-300 hover:text-[#d5fb00]" href="{{ route('contact') }}">CONTACT</a>
