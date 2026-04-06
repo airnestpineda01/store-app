@@ -120,7 +120,7 @@
             <section class="flex w-full flex-col justify-center bg-surface px-8 py-16 md:w-1/2 md:px-16 lg:w-2/5 lg:px-24">
                 <div class="mx-auto w-full max-w-md">
                     <div class="mb-12">
-                        <span class="text-2xl font-black italic tracking-tighter text-lime-400">KINETIC</span>
+                        <span class="text-2xl font-black italic tracking-tighter text-lime-400">THREAD</span>
                     </div>
                     <header class="mb-10">
                         <h2 class="mb-3 font-headline text-4xl font-bold tracking-tight text-white">Welcome Back</h2>
