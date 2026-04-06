@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <title>KINETIC | LOGIN</title>
+        <title>THREAD | LOGIN</title>
         <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
         <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,800;1,800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
@@ -102,7 +102,7 @@
                 <div class="editorial-gradient absolute inset-0 flex flex-col justify-end p-8 md:p-16 lg:p-24">
                     <div class="space-y-2">
                         <h1 class="font-headline text-5xl font-black italic leading-[0.85] tracking-tighter text-white md:text-7xl lg:text-8xl">
-                            KINETIC ACCESS
+                            THREAD ACCESS
                         </h1>
                         <div class="flex items-center gap-4">
                             <div class="h-[2px] w-12 bg-primary-container"></div>
@@ -124,7 +124,7 @@
                     </div>
                     <header class="mb-10">
                         <h2 class="mb-3 font-headline text-4xl font-bold tracking-tight text-white">Welcome Back</h2>
-                        <p class="font-body text-on-surface-variant">Login to access your kinetic registry.</p>
+                        <p class="font-body text-on-surface-variant">Login to access your thread registry.</p>
                     </header>
                     @if ($errors->any())
                         <div class="border border-red-500/30 bg-red-500/10 px-4 py-3 text-sm text-red-200">
@@ -137,7 +137,7 @@
                         <div class="space-y-2">
                             <label class="font-label text-xs font-semibold uppercase tracking-widest text-on-surface-variant" for="email">Email Address</label>
                             <div class="group relative">
-                                <input class="w-full rounded-none border-none bg-surface-container-highest px-5 py-4 text-white outline-none transition-all placeholder:text-neutral-600 focus:ring-2 focus:ring-secondary" id="email" name="email" placeholder="name@kinetic.com" type="email" value="{{ old('email') }}">
+                                <input class="w-full rounded-none border-none bg-surface-container-highest px-5 py-4 text-white outline-none transition-all placeholder:text-neutral-600 focus:ring-2 focus:ring-secondary" id="email" name="email" placeholder="name@thread.com" type="email" value="{{ old('email') }}">
                             </div>
                         </div>
                         <div class="space-y-2">
@@ -172,14 +172,14 @@
         </main>
 
         <footer class="mt-auto flex w-full flex-col items-center justify-between border-t border-neutral-800/20 bg-neutral-950 px-10 py-8 md:flex-row">
-            <div class="mb-4 text-xs font-bold uppercase tracking-tighter text-neutral-500 md:mb-0">KINETIC</div>
+            <div class="mb-4 text-xs font-bold uppercase tracking-tighter text-neutral-500 md:mb-0">THREAD</div>
             <div class="mb-6 flex gap-8 md:mb-0">
                 <a class="font-label text-[10px] tracking-widest text-neutral-600 opacity-70 transition-opacity hover:text-lime-400 hover:opacity-100" href="#">PRIVACY</a>
                 <a class="font-label text-[10px] tracking-widest text-neutral-600 opacity-70 transition-opacity hover:text-lime-400 hover:opacity-100" href="#">TERMS</a>
                 <a class="font-label text-[10px] tracking-widest text-neutral-600 opacity-70 transition-opacity hover:text-lime-400 hover:opacity-100" href="#">ACCESSIBILITY</a>
             </div>
             <div class="text-[10px] font-medium tracking-widest text-neutral-600">
-                © 2024 KINETIC EDITORIAL. ALL RIGHTS RESERVED.
+                © 2024 THREAD EDITORIAL. ALL RIGHTS RESERVED.
             </div>
         </footer>
     </body>
