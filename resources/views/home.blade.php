@@ -104,7 +104,7 @@
             <section class="relative flex min-h-[921px] items-center overflow-hidden px-6">
                 <div class="absolute inset-0 z-0">
                     <img alt="High-fashion streetwear editorial" class="h-full w-full object-cover object-center" data-alt="Editorial fashion photography of a model in oversized technical streetwear standing against a minimalist concrete architectural background with dramatic shadows" decoding="sync" fetchpriority="high" loading="eager" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApCHgxKC2uIm8vmSLOOyxF6upvBUIH7bebXeF-n7kXsRfNteasmW1F0MTHSOMLh9XA8AOb2v5Npo2J0h8gMLkvkluZLOIAEQus0DNNCjjpiieM1zOuQuWknoSGdsskizojPCxRa7Vh_Yhd8YwxGr3OHRdOBHS0K8HX3qqqHp3Z8vmyR8Wy-lBY0VU6PDOgxn3BFpcBsCjlH2q5y3FSCqI9Lc3V7gP76Fn3WXXF0L9049rlWrM02_oqeSTFKKrixs4ZkpxolUYvFtw">
-                    <div class="absolute inset-0 bg-gradient-to-t from-background/70 via-background/10 to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-background/85 via-background/35 to-transparent"></div>
                 </div>
                 <div class="relative z-10 mx-auto w-full max-w-[1200px]">
                     <div class="mb-6 inline-block bg-primary-container px-3 py-1 font-headline text-xs font-black tracking-widest text-on-primary-container">
